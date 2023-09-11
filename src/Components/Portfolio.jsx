@@ -49,13 +49,18 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Navigating the Foundations of Software Engineering",
+    description:
+      "My Journey with Data Structures, Databases, Object Oriented Design, APIs, and Software Testing",
+    url: "https://medium.com/@rohimatmustapha7/navigating-the-foundations-of-software-engineering-my-journey-with-data-structures-databases-1b2588b20c6b",
+  },
+  {
+  title: "GitHub Codespaces and github.dev",
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
-
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
