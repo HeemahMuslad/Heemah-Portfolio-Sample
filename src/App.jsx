@@ -3,11 +3,6 @@
  *
  * To contain application wide settings, routes, state, etc.
  */
-import Education from "./Components/Education";
-import Experience from "./Components/Experience";
-import Skills from "./Components/Skills";
-import Social from "./Components/Social";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 import React from "react";
@@ -42,10 +37,6 @@ const siteProps = {
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
-<Education />
-<Experience />
-<Skills />
-<Social />
 
 
 const App = () => {
